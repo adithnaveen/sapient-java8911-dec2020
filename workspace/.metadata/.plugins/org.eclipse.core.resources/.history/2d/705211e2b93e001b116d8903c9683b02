@@ -1,0 +1,14 @@
+package com.sapient.stream;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+
+public class StreamEx01 {
+	public static void main(String[] args) {
+		try (
+			FileWriter fw1 = new FileWriter("sample.txt"); 
+			BufferedWriter bw = new BufferedWriter(fw1);
+		) {
+		}
+	}
+}

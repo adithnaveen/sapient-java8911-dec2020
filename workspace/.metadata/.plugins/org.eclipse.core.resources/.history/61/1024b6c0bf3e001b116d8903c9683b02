@@ -1,0 +1,19 @@
+package com.sapient.stream;
+
+import java.time.LocalTime;
+
+public class StreamEx03 {
+	public static void main(String[] args) {
+		
+	}
+	
+	private static void log(Object ...objects) {
+		String string = LocalTime.now().toString();
+		for(Object object: objects) {
+			string += " - " + object.toString();
+		}
+		
+		System.out.println(string);
+	}
+	
+}

@@ -1,0 +1,15 @@
+package com.sapient.lambdas;
+
+@FunctionalInterface
+interface Executable{
+	int execute(int a, int b);
+	
+} 
+
+
+
+
+
+public class LabmdaEx02 {
+	
+}

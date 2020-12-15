@@ -1,0 +1,26 @@
+package com.sapient.stream;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class StreamEx04 {
+	public static void main(String[] args) {
+		List<Office> offices = Arrays.asList(
+				new Office("Sapient", "India"), 
+				new Office("Infosys", "USA"), 
+				new Office("ProBits", "France"), 
+				new Office("Sapient", "France"), 
+				new Office("Infosys", "India") 
+		); 
+		
+		
+		Map<String, Long> counting = offices.stream().collect(
+				
+				Collectors.groupingBy(Office :: getName, Collectors.counting())
+		);
+		
+		System.out.println(counting);
+	}
+}

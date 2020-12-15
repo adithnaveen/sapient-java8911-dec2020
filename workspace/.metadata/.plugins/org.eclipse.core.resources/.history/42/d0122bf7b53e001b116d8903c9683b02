@@ -1,0 +1,13 @@
+package com.sapient.lambdas;
+
+import java.util.function.IntFunction;
+
+// to show working of method references 
+public class LambdaEx09 {
+	public static void main(String[] args) {
+		
+		IntFunction<String> intToString = Integer :: toString;
+		
+		
+	}
+}

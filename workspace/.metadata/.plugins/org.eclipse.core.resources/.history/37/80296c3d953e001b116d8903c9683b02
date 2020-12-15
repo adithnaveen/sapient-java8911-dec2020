@@ -1,0 +1,28 @@
+package com.sapient.lambdas;
+
+// if you mark the interface as functional interface then 
+// you can have 1 abstract method 
+@FunctionalInterface
+interface Executable{
+	int execute(int a, int b);
+} 
+
+@FunctionalInterface
+interface StringExecutable {
+	String stringExecute(String a, String b); 
+}
+
+class Runner {
+	public void run(Executable e) {
+		System.out.println("Executable block called... ");
+		
+	}
+}
+
+
+public class LabmdaEx02 {
+	public static void main(String[] args) {
+		
+
+	}
+}

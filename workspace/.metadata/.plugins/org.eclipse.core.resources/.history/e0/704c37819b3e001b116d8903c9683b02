@@ -1,0 +1,9 @@
+package com.sapient.lambdas;
+
+public class Person {
+	private int pId;
+	private String pName; 
+	
+	
+	
+}

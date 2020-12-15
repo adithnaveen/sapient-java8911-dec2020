@@ -1,0 +1,15 @@
+package com.sapient.lambdas;
+
+import java.util.Arrays;
+
+public class LambdaEx04 {
+	public static void main(String[] args) {
+		Arrays.asList(
+			new Person(101, "Tarun"), 
+			new Person(45, "Rohit"), 
+			new Person(66, "Ankit"), 
+			new Person(23, "Savitha"), 
+			new Person(88, "Prina") 
+		); 
+	}
+}

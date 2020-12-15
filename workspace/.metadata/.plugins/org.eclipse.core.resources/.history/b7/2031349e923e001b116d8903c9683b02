@@ -1,0 +1,9 @@
+package com.sapient.lambdas;
+
+import java.util.Arrays;
+
+public class LambdaEx01 {
+	public static void main(String[] args) {
+		Arrays.asList(1,23,4,6,7,89,10); 
+	}
+}

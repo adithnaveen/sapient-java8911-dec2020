@@ -1,0 +1,11 @@
+package com.sapient.lambdas;
+
+public class Account {
+	private int accId; 
+	private double balance; 
+	private String custName; 
+	private String sex; 
+	
+	
+	
+}

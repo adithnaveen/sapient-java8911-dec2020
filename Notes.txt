@@ -1,0 +1,163 @@
+Java 8 
+Java 9 
+Java 11 
+
+
+Java 11 
+Eclipse / IntelliJ 
+
+Ajay - already using java 8, 
+Anand - front end developer, 
+Ananth - front end developer - React / Angular 
+Ankit - working in java 6, 
+Ashish - front end developer - React 
+Chirag - working on java 6, currently working in java 8 
+Nirmamidi - already used java 8 
+Pawan -  already used java 8 
+Pratibha - currently using Java 8, 
+Prina - back developer java 8, 
+Rajasekaran - currently working in java 8
+Ravi - 
+Rohit - currently working in java 8
+Sandeep - front end developer, 
+Savitha - front end developer - react js, vuejs 
+Shwetha - currently working in java 8
+Tarun - Java architect 
+Usha - looking for java features 
+
+
+
+Concurrency controls in Java 8 
+Memory management in java 8 
+What goes behind HashMap 
+Dynamic memory management in java 8 
+Thread Management in each core 
+CompletableFuture 
+Invoke Dynamic Instruction 
+Refractoring the Code 
+
+
+
+
+any interface which has exactly 1 mehtod is called functional interface. 
+
+interface x {
+	void a(); 
+}
+
+
+interface Consumer () {
+	void accept(T value); 
+}
+
+
+Condition Check 
+
+Account 
+	accId 
+	balance
+	custName
+	sex 
+	
+List 
+	
+
+The interface can have 
+	Method (Abstract Method)
+	default Method (Concrete)
+	static Method (Concrete)
+
+list = 1,2,3,5,-9,-7,-12,-77, 555
+
+list only positive numbers 
+
+DS (List)/ file / set 
+bengaluru, mumbai, chennai, delhi, delhi, mumbai 
+
+Stream 
+	|-> stream (Source )
+	
+	intermedia works 
+		|-> convert to upper case 
+		|-> lenght should be more than 5 chars 
+		
+	console / terminal 
+		|-> collect (toList) / grouping, sum() 	- returns 
+		|-> print (System.out.println)
+
+
+
+
+Sequential Stream 
+-------------------------------------------
+16:09:01.352108 - invoking terminal method, count 
+16:09:02.356283 - starting value  - 1
+16:09:03.360019 - Filtering  - 1
+16:09:04.360797 - starting value  - 2
+16:09:05.364977 - Filtering  - 2
+16:09:06.368965 - post filter - 2
+16:09:07.369290 - starting value  - 3
+16:09:08.374058 - Filtering  - 3
+16:09:09.376185 - starting value  - 4
+16:09:10.376683 - Filtering  - 4
+16:09:11.381516 - post filter - 4
+16:09:12.384332 - The count is  - 2
+
+Parallel Stream 
+--------------------------------------------------
+16:10:12.670375 - invoking terminal method, count 
+16:10:13.686349 - starting value  - 4
+16:10:13.686349 - starting value  - 3
+16:10:13.686349 - starting value  - 2
+16:10:13.686360 - starting value  - 1
+16:10:14.686869 - Filtering  - 2
+16:10:14.686920 - Filtering  - 3
+16:10:14.686869 - Filtering  - 4
+16:10:14.686869 - Filtering  - 1
+16:10:15.687323 - post filter - 2
+16:10:15.687317 - post filter - 4
+16:10:16.691594 - The count is  - 2
+
+
+- lazy operations given efficiency 
+- should not a good place where you have large amount of data in 1 go, instead it should be a gradully consumed data.  (IO/DB)
+- use streams when server call weill be only made to terminal operation 
+
+
+
+| 10 | 20 | 22 | 33|
+| 32 | 66 | 22 | 33|
+| 43 | 55 | 12 | 0 |
+| 45 | 44 | 99 | 33|
+
+
+| 10.0 | 20.0 | 22.0 | 33.0|
+| 32.0 | 66.0 | 22.0 | 33.0|
+| 43.0 | 55.0 | 12.0 | 0.0 |
+| 45.0 | 44.0 | 99.0 | 33.0|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

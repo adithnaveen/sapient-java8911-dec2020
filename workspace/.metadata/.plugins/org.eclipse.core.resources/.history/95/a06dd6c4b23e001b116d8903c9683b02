@@ -1,0 +1,15 @@
+package com.sapient.lambdas;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class LambdaEx08 {
+	public static void main(String[] args) {
+		
+		List<Integer> list = Arrays.asList(1,2,3,5,-9,-7,-12,-77, 555);
+		
+		Predicate<Integer> positive =   i -> i>0; 
+		
+	}
+}

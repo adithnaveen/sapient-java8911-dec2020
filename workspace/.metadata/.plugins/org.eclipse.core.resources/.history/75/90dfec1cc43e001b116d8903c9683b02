@@ -1,0 +1,15 @@
+package com.sapient.stream;
+
+import java.util.Arrays;
+
+public class StreamEx04 {
+	public static void main(String[] args) {
+		Arrays.asList(
+				new Office("Sapient", "India"), 
+				new Office("Infosys", "USA"), 
+				new Office("ProBits", "France"), 
+				new Office("Sapient", "France"), 
+				new Office("Infosys", "India") 
+		); 
+	}
+}

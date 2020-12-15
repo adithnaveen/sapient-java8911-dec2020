@@ -1,0 +1,14 @@
+package com.sapient.lambdas;
+
+interface Executable{
+	int execute(int a, int b);
+	int execute1(int a, int b); 
+} 
+
+
+
+
+
+public class LabmdaEx02 {
+	
+}
