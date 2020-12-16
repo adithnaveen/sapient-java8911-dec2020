@@ -3,7 +3,7 @@ package com.sapient.function;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-// showging working of partial value passing / currying 
+// showing working of partial value passing / currying 
 // you dont have to send all the values in 1 go 
 public class CurryingEx01 {
 	public static void main(String[] args) {
