@@ -15,7 +15,6 @@ public class StreamEx04 {
 				new Office("Infosys", "India") 
 		); 
 		
-		
 		// to get the count of companies WRT name 
 		Map<String, Long> counting = offices.stream().collect(
 				Collectors.groupingBy(Office :: getName, Collectors.counting())

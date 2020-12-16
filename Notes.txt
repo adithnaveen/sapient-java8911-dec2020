@@ -30,7 +30,6 @@ Usha - looking for java features
 Concurrency controls in Java 8 
 Memory management in java 8 
 What goes behind HashMap 
-Dynamic memory management in java 8 
 Thread Management in each core 
 CompletableFuture 
 Invoke Dynamic Instruction 
@@ -121,7 +120,7 @@ Parallel Stream
 
 - lazy operations given efficiency 
 - should not a good place where you have large amount of data in 1 go, instead it should be a gradully consumed data.  (IO/DB)
-- use streams when server call weill be only made to terminal operation 
+- use streams when server call will be only made to terminal operation 
 
 
 
@@ -135,6 +134,75 @@ Parallel Stream
 | 32.0 | 66.0 | 22.0 | 33.0|
 | 43.0 | 55.0 | 12.0 | 0.0 |
 | 45.0 | 44.0 | 99.0 | 33.0|
+
+
+
+{
+15.85=
+	[Product [name=marker, qty=133, price=15.85], 
+	 Product [name=marker, qty=133, price=15.85]], 
+	 
+	 
+18.55=
+	[Product [name=marker, qty=22, price=18.55]], 7.00=[Product [name=paper, qty=9, price=7.00]], 650000.00=[Product [name=laptop, qty=33, price=650000.00]], 10.00=[Product [name=paper, qty=66, price=10.00]], 32000.00=[Product [name=laptop, qty=12, price=32000.00]]}
+
+
+
+{
+15.85=
+	[Product [name=marker, qty=133, price=15.85]], 
+
+18.55=[Product [name=marker, qty=22, price=18.55]], 7.00=[Product [name=paper, qty=9, price=7.00]], 650000.00=[Product [name=laptop, qty=33, price=650000.00]], 10.00=[Product [name=paper, qty=66, price=10.00]], 32000.00=[Product [name=laptop, qty=12, price=32000.00]]}
+
+
+
+
+
+Type Parameters:
+T - the type of the input to the function
+R - the type of the result of the function
+
+Function<Integer, String> 
+
+
+Type Parameters:
+T - the type of the first argument to the function
+U - the type of the second argument to the function
+R - the type of the result of the function
+
+BiFunction<Integer, Integer, Integer> 
+
+
+
+TriFunction<Integer, Integer, Integer, Integer> 
+
+
+Optional 
+Future 
+CompletableFuture 
+
+
+
+
+
+
+class Developer {
+	private String name;
+	private Set<String> languages;
+} 
+
+
+Dev1 
+Dev2 
+
+
+CombineDeveloper 
+	private Developer dev1; 
+	private Developer dev2; 
+	private Set<languages>; which are taken from both the developers (flat map)
+	
+
+	
 
 
 

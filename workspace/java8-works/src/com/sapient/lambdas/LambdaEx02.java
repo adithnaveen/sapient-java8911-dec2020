@@ -31,7 +31,7 @@ class Runner {
 	}
 }
 
-public class LabmdaEx02 {
+public class LambdaEx02 {
 	public static void main(String[] args) {
 		
 		Runner runner = new Runner(); 
