@@ -32,4 +32,9 @@ class Developer {
 		this.languages.add(language);
 	}
 
+	@Override
+	public String toString() {
+		return "Developer [name=" + name + ", languages=" + languages + "]";
+	}
+
 }
