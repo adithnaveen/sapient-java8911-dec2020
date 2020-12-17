@@ -137,6 +137,9 @@ Parallel Stream
 
 
 
+Day 2 
+--------------------
+
 {
 15.85=
 	[Product [name=marker, qty=133, price=15.85], 
@@ -195,6 +198,8 @@ class Developer {
 Dev1 
 Dev2 
 
+BiFunction<Developer, Developer, CombineDeveloper> 
+
 
 CombineDeveloper 
 	private Developer dev1; 
@@ -205,6 +210,48 @@ CombineDeveloper
 	
 
 
+
+
+
+CombineDeveloper 
+
+
+
+[firstDeveloper=Developer [name=Pratibha, languages=[Java, C++, React]], 
+secondDeveloper=Developer [name=Rohit, languages=[React, Angular]], 
+	languages=[Java, C++, React, Angular]]
+
+
+
+
+Closure 
+
+Unlike a plain function, a closure allows the function to access those captured variables through the closure's copies of their values or references, even when the function is invoked outside their scope.
+
+
+
+{
+	{
+		int z; 
+		{
+			int y; 
+			{
+				int x; 
+			}
+		}
+	}
+}
+                               3
+NoArgFunction<NoArgFunction<NoArgFunction<Function<Integer, String>>>>
+
+ 1     2     3
+() -> () ->  () -> (101) -> word = "One Hundred And One"; 
+
+
+
+
+Day 3 
+----------------------------------- 
 
 
 

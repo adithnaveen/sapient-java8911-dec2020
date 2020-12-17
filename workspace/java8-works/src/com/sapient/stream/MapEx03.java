@@ -18,7 +18,6 @@ public class MapEx03 {
 				new Person(88, "Prina", "female") 
 			); 
 		
-		
 		Function<Person, Person> modifiedPersons = (p) ->  {
 			
 			Person p1 = new Person(); 

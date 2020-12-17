@@ -16,7 +16,8 @@ public class FunctionAsArgument {
 			return x - y;
 		}
 
-		public static Integer combine2And3(BiFunction<Integer, Integer, Integer> combineFunction) {
+		public static Integer combine2And3
+		(BiFunction<Integer, Integer, Integer> combineFunction) {
 			return combineFunction.apply(2, 3);
 		}
 	}

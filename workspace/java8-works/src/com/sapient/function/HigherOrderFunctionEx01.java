@@ -6,7 +6,6 @@ import java.util.function.Function;
 public class HigherOrderFunctionEx01 {
 	public static void main(String[] args) {
 		// num1 / num2
-		
 		BiFunction<Float, Float, Float> divide = (x, y) -> x/ y ; 
 		
 		

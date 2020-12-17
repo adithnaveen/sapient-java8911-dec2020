@@ -47,7 +47,8 @@ public class FunctionAsArgument02 {
 		rohit.add("Angular");
 		rohit.add("React");
 
-		System.out.println(combineDevelopers(FunctionAsArgument02:: combine, prathibha, rohit));
+		System.out.println(combineDevelopers(FunctionAsArgument02:: combine, 
+					prathibha, rohit));
 	}
 }
 

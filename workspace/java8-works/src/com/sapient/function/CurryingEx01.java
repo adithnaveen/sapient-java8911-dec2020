@@ -13,7 +13,8 @@ public class CurryingEx01 {
 				
 		// version 2.0 		
 		// 3 = 2 (BiFunction)-1 (Function)  		
-		BiFunction<Integer, Integer, Function<Integer, Integer>> addPartial = (x, y) -> (z) -> add.apply(x, y, z);  
+		BiFunction<Integer, Integer, Function<Integer, Integer>> addPartial
+			= (x, y) -> (z) -> add.apply(x, y, z);  
 		
 		Function<Integer, Integer> add3And2 = addPartial.apply(100, 200); 
 		Integer add123 = add3And2.apply(300); 

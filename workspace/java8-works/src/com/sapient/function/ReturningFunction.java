@@ -20,14 +20,14 @@ public class ReturningFunction {
 			return x * 4; 
 		}
 		
-		
 		public static Function<Integer, Integer> createMultiplier(Integer y) {
 			return (Integer x) -> x * y; 
 		}
 	}
 	
 	public static void main(String[] args) {
-		NoArgFunction<NoArgFunction<String>> createGreeter = () -> () -> "Hello Functional!!!!"; 
+		NoArgFunction<NoArgFunction<String>> createGreeter 
+			= () -> () -> "Hello Functional!!!!"; 
 		
 		NoArgFunction<String> greeter = createGreeter.apply(); 
 		

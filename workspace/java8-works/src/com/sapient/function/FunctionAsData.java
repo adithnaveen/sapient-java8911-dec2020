@@ -3,6 +3,7 @@ package com.sapient.function;
 // we can get the data in java8 from the function (Function as data) 
 
 public class FunctionAsData {
+	
 	private static class Dev  {
 		private String name;
 		private Integer age; 

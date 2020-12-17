@@ -58,6 +58,8 @@ public class CompositionEx01 {
 		Function<Employee, String> getName = employee -> employee.name; 
 		Function<String, String> reverse = str -> new StringBuilder(str).reverse().toString(); 
 		Function<String, String> toUpper = str -> str.toUpperCase(); 
+
+		
 		
 		Function<Employee, String> getReversedUpperCasedName = 
 				getName.andThen(reverse).andThen(toUpper); 
