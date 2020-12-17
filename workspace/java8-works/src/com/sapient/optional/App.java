@@ -95,7 +95,7 @@ public class App {
 	private static void checkCapital(String state ) {
 //		Optional.of(service.getCapitalCity(state)).ifPresentOrElse(System.out:: println,
 //				() -> {
-//					System.out.println("Capital Not ther for " + state);
+//					System.out.println("Capital Not there for " + state);
 //				});
 		
 		service.getCapitalCity(state).ifPresentOrElse(System.out:: println,
